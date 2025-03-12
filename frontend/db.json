@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "id": "4191",
+      "email": "mani@test.com",
+      "password": "test123",
+      "createdAt": "2025-03-12T17:07:36.645Z",
+      "updatedAt": "2025-03-12T17:07:36.646Z"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "1",
+      "name": "Bengaluru Resort",
+      "location": "Bengaluru, India",
+      "availableRooms": 25,
+      "pricePerNight": 1500,
+      "createdAt": "2025-03-11T10:00:00Z",
+      "updatedAt": "2025-03-11T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "name": "Mountain View Hotel",
+      "location": "Manali, India",
+      "availableRooms": 15,
+      "pricePerNight": 1200,
+      "createdAt": "2025-03-11T10:00:00Z",
+      "updatedAt": "2025-03-11T10:00:00Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "cec4",
+      "userId": "4191",
+      "hotelId": "1",
+      "checkInDate": "2025-03-11T18:30:00.000Z",
+      "checkOutDate": "2025-03-12T18:30:00.000Z",
+      "status": "checked-in",
+      "createdAt": "2025-03-12T17:26:34.897Z",
+      "updatedAt": "2025-03-12T17:26:44.931Z"
+    },
+    {
+      "id": "eb63",
+      "userId": "4191",
+      "hotelId": "1",
+      "checkInDate": "2025-03-14T18:30:00.000Z",
+      "checkOutDate": "2025-03-15T18:30:00.000Z",
+      "status": "checked-in",
+      "createdAt": "2025-03-12T17:26:56.895Z",
+      "updatedAt": "2025-03-12T17:27:44.103Z"
+    }
+  ],
+  "familyMembers": [
+    {
+      "id": "cced",
+      "bookingId": "cec4",
+      "name": "mani",
+      "aadhaar": "123456789012",
+      "createdAt": "2025-03-12T17:26:44.884Z",
+      "updatedAt": "2025-03-12T17:26:44.884Z"
+    },
+    {
+      "id": "20b7",
+      "bookingId": "eb63",
+      "name": "manikandan",
+      "aadhaar": "098765432121",
+      "createdAt": "2025-03-12T17:27:44.080Z",
+      "updatedAt": "2025-03-12T17:27:44.080Z"
+    }
+  ]
+}
